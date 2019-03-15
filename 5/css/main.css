@@ -1,0 +1,21 @@
+@import url("grid.css");
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	background: #87CEEB;
+}
+
+.box {
+	border: 1px solid red;
+	height: 100px;
+	margin: 10px;
+	background: #EE82EE;
+}
+
+.box1 {
+	border: 1px solid red;
+	height: 343px;
+	margin: 10px;
+	background: #EE82EE;
+}
