@@ -6,6 +6,7 @@
 	background: #87CEEB;
 }
 
+
 .box {
 	border: 1px solid red;
 	height: 100px;
@@ -19,3 +20,19 @@
 	margin: 10px;
 	background: #EE82EE;
 }
+
+.slider {
+	padding: 0px;
+	margin: 0 0 30px;
+	list-style-type: none;
+	text-align: center;
+}
+
+.slider li {
+	display: none;
+}
+
+.slider li.active {
+	display: block;
+}
+
