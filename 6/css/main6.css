@@ -1,0 +1,71 @@
+.menu {
+	width: 70px;
+	display: block;
+	background: #98FB98;
+	color: #800080;
+	border: 1px solid black;
+}
+
+li {
+	 list-style-type: none
+}
+
+.podmenu {
+	display: none;
+}
+
+.podmenu1 {
+	display: none;
+}
+
+.podmenu2 {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: #800080;
+}
+
+.podmenu:target {
+	display: block;
+}
+
+.podmenu1:target {
+	display: block;
+}
+.podmenu2:target {
+	display: block;
+}
+
+li.menu:hover {
+	background: #32CD32;
+}
+
+.podmenu li:hover{
+	background: white;
+}
+
+.window {
+	display: none;
+}
+
+.window1 {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: red;
+}
+
+.window:target {
+	display: block;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+}
