@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Анкета для для получения визы</h1>
+
+	 <form action="#" method="post" enctype="multipart/form-data">
+	 	<fieldset >
+            <legend>Личные данные</legend>
+            <p>                
+                <label for="lastname">Фамилия</label>
+                <input id="lastname" type="text" value="" required>                
+            </p>
+            <p>                
+                <label for="name">Имя</label>
+                <input id="name" type="text" value="" required>                
+            </p>
+            <p>
+            	<label>Пол:</label>
+                <label><input name="answer" type="radio">Муж</label>
+                <label><input name="answer" type="radio">Жен</label>  
+            </p>
+            <p>
+            	<label>Прикрепите фото:</label>
+            	<input type="file" multiple accept="image/*">           
+            </p>
+
+            <fieldset>
+            <legend>Паспортные данные</legend>
+            <p>                
+                <label for="numberp">Cерия и номер</label>
+                <input id="numberp" type="text" 
+                placeholder="*без пробела" pattern="[0-9]{10} required">            
+            </p>
+            <p>                
+                <label for="date">Дата выдачи</label>
+                <input id="tade" type="date" required>                
+            </p>
+            <p>
+            	<label for="vidanp">Кем выдан</label>
+                <textarea cols="50" rows="2"
+                          autofocus required>
+                </textarea>
+            </p>
+            </fieldset>
+        </fieldset>
+
+        <fieldset>
+            <legend>Страна и цель визита</legend>
+            <p>
+                <label>Выберите страну</label>
+                <select>
+                    <optgroup
+                    label="Страна">
+                        <option>Испания</option>
+                        <option>Италия</option>
+                        <option>Швеция</option>
+                    </optgroup>                   
+                </select>
+            </p>
+            <p>
+            	<label>Цель визита:</label>
+            	<p>
+                   <label><input type="checkbox">Туризм</label>
+                   <label><input type="checkbox">Лечение</label>
+                   <label><input type="checkbox">Транзит</label>
+                </p>
+                <p>
+                   <label><input type="checkbox">Деловая поездка</label>
+                   <label><input type="checkbox">Спортивное мероприятие</label>         
+                </p>
+                <p>
+                	<label><input type="checkbox">Посещение родственников и друзей</label>
+                </p>
+            </p>
+            
+            	 <fieldset>
+            	 	<legend>Планируемая дата</legend>            	 	
+            	 	<p>
+            		<label>въезда</label><input id="tade" type="date">
+            		<label>выезда</label><input id="tade" type="date">
+            		</p>
+            	</fieldset>            	
+             
+        </fieldset>
+
+        <button name="submit_btn" value="some_value" type="submit">Отправить данные</button>
+
+     </form>
+</body>
+</html>
