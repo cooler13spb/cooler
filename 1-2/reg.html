@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<a href="index1_2.html#elem1">Главная</a>
+
+	<form action="#" method="post" enctype="multipart/form-data">
+		<fieldset>
+		<legend>Регистрация</legend>
+		<p>
+			<label for="login">Имя</label>
+            <input id="text" type="text" placeholder="введите имя"
+            minlength="3" maxlength="10">
+        </p>
+
+        <p>
+        	<label for="email">Email</label>
+           <input type="email" id="email" placeholder="введите email" required>
+       </p>
+        <p>
+			<label for="pwd">Пароль</label>
+            <input id="pwd" type="password" placeholder="введите пароль"
+            minlength="3" maxlength="9">
+        </p>
+        <p>
+			<label for="pwd">Подтверждения пароля</label>
+            <input id="pwd" type="password" placeholder="введите пароль еще раз"
+            minlength="3" maxlength="9">
+        </p>
+        <p>
+            <input type="file" multiple accept="image/*">
+        </p>
+        <p>
+        	<button type="button">Регистрация</button>
+        </p>
+        </fieldset>
+	</form>
+</body>
+</html>
